@@ -6,23 +6,16 @@ html {
 }
 
 body {
-    /* width: 100%; */
     margin-left: auto;
     margin-right: auto;
     padding-left: 12.5%;
-    /* font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif; */
     font-family: sans, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
     /* background-color: #ffffff; */
-    /* background-color: #fffff8; */
-    background-color: #fffff9;
+    background-color: #fffffc;
     color: #111;
     max-width: 1400px;
     counter-reset: sidenote-counter;
 }
-/* html, body {width: 80vw; height: 100vh;} */
-/* div {
-    width: 100%;
-} */
 
 /* Adds dark mode */
 @media (prefers-color-scheme: dark) {
@@ -32,19 +25,10 @@ body {
     }
 }
 
-/* h1 {
-    font-weight: 400;
-    margin-top: 4rem;
-    margin-bottom: 1.5rem;
-    font-size: 3.2rem;
-    line-height: 1;
-} */
-
 h1 {
     font-style: normal;
     font-weight: bold;
     font-weight: 400;
-    /* font-variant: small-caps; */
     margin-top: 1.0rem;
     margin-bottom: 1.4rem;
     font-size: 1.8rem;
@@ -207,13 +191,13 @@ a:visited {
 
 a:link, .tufte-underline, .hover-tufte-underline:hover {
     text-decoration: none;
-    background: -webkit-linear-gradient(#fffff8, #fffff8), -webkit-linear-gradient(#fffff8, #fffff8), -webkit-linear-gradient(currentColor, currentColor);
-    background: linear-gradient(#fffff8, #fffff8), linear-gradient(#fffff8, #fffff8), linear-gradient(currentColor, currentColor);
+    background: -webkit-linear-gradient(#fffffc, #fffffc), -webkit-linear-gradient(#fffffc, #fffffc), -webkit-linear-gradient(currentColor, currentColor);
+    background: linear-gradient(#fffffc, #fffffc), linear-gradient(#fffffc, #fffffc), linear-gradient(currentColor, currentColor);
     -webkit-background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
     -moz-background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
     background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
     background-repeat: no-repeat, no-repeat, repeat-x;
-    text-shadow: 0.03em 0 #fffff8, -0.03em 0 #fffff8, 0 0.03em #fffff8, 0 -0.03em #fffff8, 0.06em 0 #fffff8, -0.06em 0 #fffff8, 0.09em 0 #fffff8, -0.09em 0 #fffff8, 0.12em 0 #fffff8, -0.12em 0 #fffff8, 0.15em 0 #fffff8, -0.15em 0 #fffff8;
+    text-shadow: 0.03em 0 #fffffc, -0.03em 0 #fffffc, 0 0.03em #fffffc, 0 -0.03em #fffffc, 0.06em 0 #fffffc, -0.06em 0 #fffffc, 0.09em 0 #fffffc, -0.09em 0 #fffffc, 0.12em 0 #fffffc, -0.12em 0 #fffffc, 0.15em 0 #fffffc, -0.15em 0 #fffffc;
     background-position: 0% 93%, 100% 93%, 0% 93%;
 }
 
