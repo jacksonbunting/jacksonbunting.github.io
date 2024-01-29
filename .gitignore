@@ -5,7 +5,6 @@
 *Rproj*
 *.aux*
 *.out*
-*.pdf*
 *.log*
 *.bbl
 *.bcf
@@ -19,4 +18,4 @@
 *.mat
 *.csv
 *.jld
-*.tex
+*.tex*
