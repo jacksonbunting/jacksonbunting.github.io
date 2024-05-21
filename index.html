@@ -36,16 +36,26 @@
         <p>[1]&ensp;
             <span class="papertitle"><b>Continuous permanent unobserved heterogeneity in dynamic discrete choice models</b></span>
             <span class="paperdetails">
-                | <a href="https://arxiv.org/pdf/2202.03960.pdf">arxiv</a>, February 2024.
-            </span> 
+                | <a href="https://arxiv.org/pdf/2202.03960.pdf">arxiv</a>, February 2024. 
+            </span>  
+            (<a href="javascript:void();" onclick="toggle_visibility('types');" class="">abstract</a>)
+
+            <div id="types", class='hidden'> In dynamic discrete choice (DDC) analysis, it is common to use mixture models to control for unobserved heterogeneity. However, consistent estimation typically requires both restrictions on the support of unobserved heterogeneity and a high-level injectivity condition that is difficult to verify. This paper provides primitive conditions for point identification of a broad class of DDC models with multivariate continuous permanent unobserved heterogeneity. The results apply to both finite- and infinite-horizon DDC models, do not require a full support assumption, nor a long panel, and place no parametric restriction on the distribution of unobserved heterogeneity. In addition, I propose a seminonparametric estimator that is computationally attractive and can be implemented using familiar parametric methods.</div>
         </p>
+
+
+
+
         <p>[2]&ensp;
             <span class="papertitle"><b>Heterogeneity, Uncertainty and Learning: Semiparametric Identification and Estimation</b></span>
             <span class="coauthors">with <a href="https://www.paul-diegert.com/">Paul Diegert</a> and <a href="http://www.amaurel.net/">Arnaud Maurel</a> </span>
             <span class="paperdetails">
                 | <a href="https://arxiv.org/pdf/2402.08575.pdf">arxiv</a>, <a href="https://www.nber.org/papers/w32164">NBER</a>, February 2024. 
                 <!-- | <a href="pdfs/HUL.pdf">Original draft.</a>, December 2022. -->
-            </span> 
+            </span>
+            (<a href="javascript:void();" onclick="toggle_visibility('learning');" class="">abstract</a>)
+
+            <div id="learning", class='hidden'> We provide semiparametric identification results for a broad class of learning models in which continuous outcomes depend on three types of unobservables: i) known heterogeneity, ii) initially unknown heterogeneity that may be revealed over time, and iii) transitory uncertainty. We consider a common environment where the researcher only has access to a short panel on choices and realized outcomes. We establish identification of the outcome equation parameters and the distribution of the three types of unobservables, under the standard assumption that unknown heterogeneity and uncertainty are normally distributed. We also show that, absent known heterogeneity, the model is identified without making any distributional assumption. We then derive the asymptotic properties of a sieve MLE estimator for the model parameters, and devise a tractable profile likelihood based estimation procedure. Monte Carlo simulation results indicate that our estimator exhibits good finite-sample properties.</div>
         </p>
         <p>[3]&ensp;
             <span class="papertitle"><b>Faster estimation of dynamic discrete choice games using index invertibility</b></span>
@@ -53,6 +63,10 @@
             <span class="paperdetails">
                 | <a href="https://arxiv.org/pdf/2304.02171.pdf">arxiv</a>, September 2023.
             </span> 
+            (<a href="javascript:void();" onclick="toggle_visibility('faster');" class="">abstract</a>)
+
+            <div id="faster", class='hidden'> Many estimators of dynamic discrete choice models with persistent unobserved heterogeneity have desirable statistical properties but are computationally intensive. In this paper we propose a method to quicken estimation for a broad class of dynamic discrete choice problems by exploiting semiparametric index restrictions. Specifically, we propose an estimator for models whose reduced form parameters are injective functions of one or more linear indices (Ahn, Ichimura, Powell, and Ruud 2018), a property we term index invertibility. We establish that index invertibility implies a set of equality constraints on the model parameters. Our proposed estimator uses the equality constraints to decrease the dimension of the optimization problem, thereby generating computational gains. Our main result shows that the proposed estimator is asymptotically equivalent to the unconstrained, computationally heavy estimator. In addition, we provide a series of results on the number of independent index restrictions on the model parameters, providing theoretical guidance on the extent of computational gains. Finally, we demonstrate the advantages of our approach via Monte Carlo simulations.</div>
+            
         </p>
         <p>[4]&ensp;
             <span class="papertitle"><b>Testing homogeneity in dynamic discrete games in finite samples</b></span>
@@ -60,6 +74,9 @@
             <span class="paperdetails">
                 | <a href="https://arxiv.org/pdf/2010.02297.pdf">arxiv</a>, May 2023.
             </span> 
+            (<a href="javascript:void();" onclick="toggle_visibility('homog');" class="">abstract</a>)
+
+            <div id="homog", class='hidden'> The literature on dynamic discrete games often assumes that the conditional choice probabilities and the state transition probabilities are homogeneous across markets and over time. We refer to this as the "homogeneity assumption" in dynamic discrete games. This assumption enables empirical studies to estimate the game's structural parameters by pooling data from multiple markets and from many time periods. In this paper, we propose a hypothesis test to evaluate whether the homogeneity assumption holds in the data. Our hypothesis test is the result of an approximate randomization test, implemented via a Markov chain Monte Carlo (MCMC) algorithm. We show that our hypothesis test becomes valid as the (user-defined) number of MCMC draws diverges, for any fixed number of markets, time periods, and players. We apply our test to the empirical study of the U.S. Portland cement industry in Ryan (2012).</div>
         </p>
       </section>
 
@@ -69,8 +86,9 @@
             <span class="papertitle"><b>On the iterated estimation of dynamic discrete choice games</b></span>
             <span class="coauthors">with <a href="https://sites.northwestern.edu/federicobugni/">Federico Bugni</a></span>
             <span class="paperdetails">
-                | <a href="https://academic.oup.com/restud/article/88/3/1031/5862642?guestAccessKey=9ad8bb02-4fef-44b9-bd81-1e62520b2f80"><i>Review of Economic Studies</i></a>, 2021. (<a href="https://arxiv.org/abs/1802.06665")>arxiv drafts</a>)
-            </span>
+                | <a href="https://academic.oup.com/restud/article/88/3/1031/5862642?guestAccessKey=9ad8bb02-4fef-44b9-bd81-1e62520b2f80"><i>Review of Economic Studies</i></a>, 2021. (<a href="https://arxiv.org/abs/1802.06665")>arxiv drafts</a>, <a href="javascript:void();" onclick="toggle_visibility('pi');" class="">abstract</a>)
+
+                <div id="pi", class='hidden'> We study the asymptotic properties of a class of estimators of the structural parameters in dynamic discrete choice games. We consider K-stage policy iteration (PI) estimators, where K denotes the number of policy iterations employed in the estimation. This class nests several estimators proposed in the literature such as those in Aguirregabiria and Mira (2002, 2007), Pesendorfer and Schmidt-Dengler (2008), and Pakes et al. (2007). First, we establish that the K-PML estimator is consistent and asymptotically normal for all K. This complements findings in Aguirregabiria and Mira (2007), who focus on K=1 and K large enough to induce convergence of the estimator. Furthermore, we show under certain conditions that the asymptotic variance of the K-PML estimator can exhibit arbitrary patterns as a function of K. Second, we establish that the K-MD estimator is consistent and asymptotically normal for all K. For a specific weight matrix, the K-MD estimator has the same asymptotic distribution as the K-PML estimator. Our main result provides an optimal sequence of weight matrices for the K-MD estimator and shows that the optimally weighted K-MD estimator has an asymptotic distribution that is invariant to K. The invariance result is especially unexpected given the findings in Aguirregabiria and Mira (2007) for K-PML estimators. Our main result implies two new corollaries about the optimal 1-MD estimator (derived by Pesendorfer and Schmidt-Dengler (2008)). First, the optimal 1-MD estimator is optimal in the class of K-MD estimators. In other words, additional policy iterations do not provide asymptotic efficiency gains relative to the optimal 1-MD estimator. Second, the optimal 1-MD estimator is more or equally asymptotically efficient than any K-PML estimator for all K. Finally, the appendix provides appropriate conditions under which the optimal 1-MD estimator is asymptotically efficient.</div>            </span>
         </p>
       </section>
 
@@ -99,5 +117,18 @@
       </p>
   </article>
 </body>
+
+<script type="text/javascript">
+
+    toggle_visibility('id_of_element_to_toggle');
+    
+    function toggle_visibility(id) {
+       var e = document.getElementById(id);
+       if(e.style.display == 'block')
+          e.style.display = 'none';
+       else
+          e.style.display = 'block';
+    }
+     </script>
 
 </html>

@@ -79,15 +79,29 @@ section {
 p,
 dl,
 ol,
-ul {
+ul,
+div {
     font-size: 1.4rem;
     line-height: 2rem;
 }
 
-p {
+div {
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+p,
+div {
     margin-top: 1.4rem;
     margin-bottom: 1.0rem;
     padding-right: 0;
+    vertical-align: baseline;
+}
+
+div {
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    margin-left: 1rem;
     vertical-align: baseline;
 }
 
@@ -131,6 +145,7 @@ blockquote footer {
 }
 
 section > p,
+section > div,
 section > footer,
 section > table {
     width: 85%;
@@ -257,10 +272,10 @@ blockquote .marginnote {
     text-align: left;
 }
 
-div.fullwidth,
+/* div.fullwidth,
 table.fullwidth {
     width: 100%;
-}
+} */
 
 div.table-wrapper {
     overflow-x: auto;
@@ -282,6 +297,10 @@ code, pre > code {
 .sans > code {
     font-size: 1.2rem;
 }
+
+.hidden{
+    display:none;
+ }
 
 h1 > code,
 h2 > code,
