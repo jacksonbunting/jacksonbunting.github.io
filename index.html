@@ -35,15 +35,17 @@
       <section>
         <h2>Working papers</h2>
         
-        <p>[1]&ensp;
-            <span class="papertitle"><b>Faster estimation of dynamic discrete choice games using index invertibility</b></span>
-            <span class="coauthors">with <a href="https://economics.ucdavis.edu/people/tu10">Takuya Ura</a></span> | 
-            <span class="paperdetails">
-                Accepted at <i>Journal of Econometrics</i>, April 2025.
-            </span> 
-            (<a href="https://arxiv.org/pdf/2304.02171.pdf">arxiv</a>, <a href="javascript:void();" onclick="toggle_visibility('faster');" class="">abstract</a>)
 
-            <div id="faster", class='hidden'> Many estimators of dynamic discrete choice models with persistent unobserved heterogeneity have desirable statistical properties but are computationally intensive. In this paper we propose a method to quicken estimation for a broad class of dynamic discrete choice problems by exploiting semiparametric index restrictions. Specifically, we propose an estimator for models whose reduced form parameters are invertible functions of one or more linear indices (Ahn, Ichimura, Powell, and Ruud 2018), a property we term index invertibility. We establish that index invertibility implies a set of equality constraints on the model parameters. Our proposed estimator uses the equality constraints to decrease the dimension of the optimization problem, thereby generating computational gains. Our main result shows that the proposed estimator is asymptotically equivalent to the unconstrained, computationally heavy estimator. In addition, we provide a series of results on the number of independent index restrictions on the model parameters, providing theoretical guidance on the extent of computational gains. Finally, we demonstrate the advantages of our approach via Monte Carlo simulations.</div>            
+        <p>[1]&ensp;
+            <span class="papertitle"><b>Heterogeneity, Uncertainty and Learning: Semiparametric Identification and Estimation</b></span>
+            <span class="coauthors">with <a href="https://www.paul-diegert.com/">Paul Diegert</a> and <a href="http://www.amaurel.net/">Arnaud Maurel</a> </span>
+            <span class="paperdetails">
+                | <a href="https://arxiv.org/pdf/2402.08575.pdf">arxiv</a>, <a href="https://www.nber.org/papers/w32164">NBER</a>, June 2025. 
+                <!-- | <a href="pdfs/HUL.pdf">Original draft.</a>, December 2022. -->
+            </span>
+            (<a href="javascript:void();" onclick="toggle_visibility('learning');" class="">abstract</a>)
+
+            <div id="learning", class='hidden'> We provide identification results for a broad class of learning models in which continuous outcomes depend on three types of unobservables: known heterogeneity, initially unknown heterogeneity that may be revealed over time, and transitory uncertainty. We consider a common environment where the researcher only has access to a short panel on choices and realized outcomes. We establish identification of the outcome equation parameters and the distribution of the unobservables, under the standard assumption that unknown heterogeneity and uncertainty are normally distributed. We also show that, absent known heterogeneity, the model is identified without making any distributional assumption. We then derive the asymptotic properties of a sieve MLE estimator for the model parameters, and devise a tractable profile likelihood-based estimation procedure. Our estimator exhibits good finite-sample properties. Finally, we illustrate our approach with an application to ability learning in the context of occupational choice. Our results point to substantial ability learning based on realized wages.</div>
         </p>
         
 
@@ -80,21 +82,20 @@
             <div id="types", class='hidden'> In dynamic discrete choice (DDC) analysis, it is common to use mixture models to control for unobserved heterogeneity. However, consistent estimation typically requires both restrictions on the support of unobserved heterogeneity and a high-level injectivity condition that is difficult to verify. This paper provides primitive conditions for point identification of a broad class of DDC models with multivariate continuous permanent unobserved heterogeneity. The results apply to both finite- and infinite-horizon DDC models, do not require a full support assumption, nor a long panel, and place no parametric restriction on the distribution of unobserved heterogeneity. In addition, I propose a seminonparametric estimator that is computationally attractive and can be implemented using familiar parametric methods.</div>
         </p>
 
-        <p>[5]&ensp;
-            <span class="papertitle"><b>Heterogeneity, Uncertainty and Learning: Semiparametric Identification and Estimation</b></span>
-            <span class="coauthors">with <a href="https://www.paul-diegert.com/">Paul Diegert</a> and <a href="http://www.amaurel.net/">Arnaud Maurel</a> </span>
-            <span class="paperdetails">
-                | <a href="https://arxiv.org/pdf/2402.08575.pdf">arxiv</a>, <a href="https://www.nber.org/papers/w32164">NBER</a>, February 2024. 
-                <!-- | <a href="pdfs/HUL.pdf">Original draft.</a>, December 2022. -->
-            </span>
-            (<a href="javascript:void();" onclick="toggle_visibility('learning');" class="">abstract</a>)
-
-            <div id="learning", class='hidden'> We provide semiparametric identification results for a broad class of learning models in which continuous outcomes depend on three types of unobservables: i) known heterogeneity, ii) initially unknown heterogeneity that may be revealed over time, and iii) transitory uncertainty. We consider a common environment where the researcher only has access to a short panel on choices and realized outcomes. We establish identification of the outcome equation parameters and the distribution of the three types of unobservables, under the standard assumption that unknown heterogeneity and uncertainty are normally distributed. We also show that, absent known heterogeneity, the model is identified without making any distributional assumption. We then derive the asymptotic properties of a sieve MLE estimator for the model parameters, and devise a tractable profile likelihood based estimation procedure. Monte Carlo simulation results indicate that our estimator exhibits good finite-sample properties.</div>
-        </p>
       </section>
 
       <section>
         <h2>Publications</h2>
+
+        <p>[5]&ensp;
+            <span class="papertitle"><b>Faster estimation of dynamic discrete choice games using index invertibility</b></span>
+            <span class="coauthors">with <a href="https://economics.ucdavis.edu/people/tu10">Takuya Ura</a></span>
+            <span class="paperdetails">
+                | <a href="https://doi.org/10.1016/j.jeconom.2025.106004"><i>Journal of Econometrics</i></a>, 2025. (<a href="https://arxiv.org/pdf/2304.02171.pdf")>arxiv drafts</a>, <a href="javascript:void();" onclick="toggle_visibility('faster');" class="">abstract</a>)
+
+            <div id="faster", class='hidden'> Many estimators of dynamic discrete choice models with persistent unobserved heterogeneity have desirable statistical properties but are computationally intensive. In this paper we propose a method to quicken estimation for a broad class of dynamic discrete choice problems by exploiting semiparametric index restrictions. Specifically, we propose an estimator for models whose reduced form parameters are invertible functions of one or more linear indices (Ahn, Ichimura, Powell, and Ruud 2018), a property we term index invertibility. We establish that index invertibility implies a set of equality constraints on the model parameters. Our proposed estimator uses the equality constraints to decrease the dimension of the optimization problem, thereby generating computational gains. Our main result shows that the proposed estimator is asymptotically equivalent to the unconstrained, computationally heavy estimator. In addition, we provide a series of results on the number of independent index restrictions on the model parameters, providing theoretical guidance on the extent of computational gains. Finally, we demonstrate the advantages of our approach via Monte Carlo simulations.</div>            </span>
+        </p>
+
         <p>[6]&ensp;
             <span class="papertitle"><b>On the iterated estimation of dynamic discrete choice games</b></span>
             <span class="coauthors">with <a href="https://sites.northwestern.edu/federicobugni/">Federico Bugni</a></span>
